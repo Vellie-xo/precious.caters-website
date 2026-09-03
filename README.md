@@ -21,7 +21,8 @@ Precious Caters is a modern, responsive web application built for a community-ce
 
 ## 📸 Project Preview
 
-![Precious Caters Preview] (<img width="1349" height="3081" alt="image" src="https://github.com/user-attachments/assets/df3942e5-d86d-4661-b7db-3f1f8421de1e" />
+![Precious Caters Preview]
+(<img width="1349" height="3081" alt="image" src="https://github.com/user-attachments/assets/df3942e5-d86d-4661-b7db-3f1f8421de1e" />
 )
 
 
