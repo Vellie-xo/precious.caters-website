@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Catering Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="config.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Praise&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+<header class="header"> 
+    <h1 class="header__title">Prec<span>ious</span>Caters</h1>
+    <ul class="header__menus">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menus">Menus</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="header__menu-toggle">
+        <i class="bx bx-menu"></i>
+        <i class="bx bx-x"></i>
+    </div>
+</header>
+
+<!--    SECTION: HOME -->
+    <section id="home" class="section-home section-menu">
+       <div class="section-home__content">
+        <h1 class="section-home__title">Welcome to <span>PreciousCaters</span>, where flavour meets excellence!</h1>
+        <div class="section-home__buttons">
+            <button class="primary-button">Contact Us</button>
+            <a href="#menus" class="secondary-button hover-icon-right">Explore
+                <i class="bx bx-right-arrow-alt"></i>
+            </a>
+        </div>
+
+    </div>
+    <img src="image0.jpeg" alt="Catering Image" class="section-home__image">
+    </section>
+
+    <!--    SECTION: MENUS -->
+    <section id="menus" class=" section-menus section-menu">    
+       <h1 class="section-title">Our <span>Menus</span></h1>
+       <p class="section-description">Bold flavors, rich traditions, and unforgettable gatherings. Precious Caters delivers exceptional catering rooted in authentic Southern African cuisine and international classics. Handcrafted with passion, served with pride.</p>
+       <div class="section-menus__cards">
+           <div class="section-menus__card">
+               <img src="image3.jpg" alt="Menu 1" class="section-menus__card-image">
+               <h3 class="section-menus__card-title">Starters</h3>
+               <div class="section-menus__card-rating">
+                   <i class="bx bx-star" data-value="1"></i>
+  <i class="bx bx-star" data-value="2"></i>
+  <i class="bx bx-star" data-value="3"></i>
+  <i class="bx bx-star" data-value="4"></i>
+  <i class="bx bx-star" data-value="5"></i>
+                   
+               </div>
+         <div class="section-menus__card-footer">
+           
+         </div> 
+           </div>      
+         <!-- CARD 2 -->      
+ <div class="section-menus__card">
+               <img src="image2.png" alt="Menu 1" class="section-menus__card-image">
+               <h3 class="section-menus__card-title">Mains</h3>
+               <div class="section-menus__card-rating">
+                  <i class="bx bx-star" data-value="1"></i>
+  <i class="bx bx-star" data-value="2"></i>
+  <i class="bx bx-star" data-value="3"></i>
+  <i class="bx bx-star" data-value="4"></i>
+  <i class="bx bx-star" data-value="5"></i>
+                   
+               </div>
+               
+         <div class="section-menus__card-footer">
+            
+         </div>   
+         </div>
+         <!-- CARD 3 -->
+           <div class="section-menus__card">
+               <img src="image4.jpg" alt="Menu 1" class="section-menus__card-image">
+               <h3 class="section-menus__card-title">Desserts</h3>
+               <div class="section-menus__card-rating">
+                  <i class="bx bx-star" data-value="1"></i>
+  <i class="bx bx-star" data-value="2"></i>
+  <i class="bx bx-star" data-value="3"></i>
+  <i class="bx bx-star" data-value="4"></i>
+  <i class="bx bx-star" data-value="5"></i>
+                   
+               </div>
+         <div class="section-menus__card-footer">
+            
+                
+            
+         </div>  
+           </div>         
+
+       
+    </section>
+     <!--    SECTION: ABOUT -->
+    <section id="about" class="section-about section-about">    
+      <img class="section-about__image" src="aboutus.jpg" alt="Serving">
+      <div class="section-about__content">
+        <h1 class="section-title">About<span>Us</span></h1>
+        <p class="section description">At Precious Caters, our passion is bringing people together around the table. Guided by warm hospitality and a deep love for community, our dedicated team prepares authentic Southern African dishes and global favorites crafted to make every guest feel like family.</p>
+        <div class="section-about__stats">
+            <div class="section-about__stat">
+                <h1 class="section-about__stat-number">2+</h1>
+                <div class="section-about__stat-text">
+                    <span class="section-about__stat-description">Years of</span>
+                    <h3 class="section-about__stat-title">Experience</h3>
+                </div>
+            </div>
+            <div class="section-about__stat">
+                <h1 class="section-about__stat-number">15</h1>
+                <div class="section-about__stat-text">
+                    <span class="section-about__stat-description">Best</span>
+                    <h3 class="section-about__stat-title">Foods</h3>
+                </div>
+            </div>
+        </div>
+        <button class="primary-button">
+            Learn More
+            <i class="bx bx-right-arrow-alt"></i>
+        </button>
+      </div>
+      <img class="section-about__image-background-1" src="image.beet.png" alt="beetroot">
+      <img class="section-about__image-background-2" src="image.bnut.png" alt="butternut">
+
+
+    </section>
+    
+
+     <!--    SECTION: SERVICES -->
+    <section id="services" class="section-services section-services">    
+       <h1 class="section-title">Our<span>Services</span></h1>
+       <p class="section-description">Great food is best shared with great company. We create custom menu experiences that bring family, friends, and colleagues together over unforgettable Southern African and global dishes.</p>
+       <div class="section-services__cards">
+        <div class="section-services__card">
+            <div class="section-services__card-icon">
+                <i class="bx bx-bowl-hot"></i>
+                </div>
+                <h1 class="section-services__card-title">Event Catering</h1>
+                <ul class="service-list__Event">
+                    <li>Wedding Catering</li>
+                    <li>Birthday & Private Party Catering</li>
+                    <li>Funeral/Memorial Catering</li>
+                    <li>Baby Shower & Bridal Shower</li>
+                </ul>
+        </div>
+        <div class="section-services__card">
+            <div class="section-services__card-icon">
+                <i class="bx bx-calendar-event"></i>
+                </div>
+                <h1 class="section-services__card-title">Corporate Catering</h1>
+                <ul class="service-list__Corporate">
+                    <li>Office Lunches & Workshop Meetings</li>
+                    <li>Conference & Workshop Catering</li>
+                    <li>Year-End Functions</li>
+                    <li>Staff Canteen / Daily Meals</li>
+                </ul>
+            </div>
+        
+        <div class="section-services__card">
+            <div class="section-services__card-icon">
+                <i class="bx bx-package"></i>
+            </div>
+                <h1 class="section-services__card-title">Extra Services</h1>
+                <ul class="service-list__Extra">
+                    <li>Decor & Table Setup</li>
+                    <li>Equipment Hire</li>
+                    <li>Waiters, Bartenders & Chefs for Hire</li>
+                    <li>Cake Baking & Desserts</li>
+                </ul>
+            </div>
+       </div>
+    </section>
+     <!--    SECTION: CONTACT -->
+    <section id="contact" class="section-contact section-menu">    
+       <div class="section-contact__info">
+        <h1 class="section-title">Contact <span>Us</span></h1>
+        <p class="section-description">We would love to be a part of your next gathering! Reach out to our friendly team today to discuss your event, customize your menu, or simply say hello.</p>
+        <div class="section-contact__info-items">
+            <div class="section-contact__info-item">
+                <div class="section-contact__info-item-icon">
+                    <i class="bx bxs-location-plus"></i>
+                </div>
+                <a class="section-contact__info-item-link" href="#">
+                    Bulawayo, Zimbabwe
+                </a>
+            </div>
+            <div class="section-contact__info-item">
+                <div class="section-contact__info-item-icon">
+                   <i class="bx bxl-whatsapp"></i>
+                </div>
+                <a class="section-contact__info-item-link" id="whatsapp-primary" href="https://wa.me/27726075285">
+                    💭Chat with us
+                </a>
+            </div>
+            <div class="section-contact__info-item">
+                <div class="section-contact__info-item-icon">
+                    <i class="bx bxl-facebook"></i>
+                </div>
+                <a class="section-contact__info-item-link" id="facebook-link" href="https://www.facebook.com/share/1D6ttVw8Dp/">
+                     @PreciousCaters
+                </a>
+            </div>
+        </div>
+       </div>
+       <form class="section-contact__form" action="https://formspree.io/f/mljegejy" method="POST">
+        <input type="text" name="name" class="text-field" placeholder="Your Name">
+        <input type="email" name="email" class="text-field" placeholder="Email">
+        <input type="tel" name="phone" class="text-field" placeholder="Phone number">
+        <textarea class="text-field text-field--textarea" placeholder="Message" rows="5"></textarea>
+        <button class="section-contact__form-button light-button">Send Message</button>
+       </form>
+    </section>
+    <!-- SECTION END CONTACT -->
+
+    <!-- FOOTER -->
+     <footer class="footer">
+        <h1 class="footer_title">Prec<span>ious</span>Caters</h1>
+        <ul class="footer__menus">
+            <li class="footer_menus-menu"><a href="#home">Home</a></li>
+            <li class="footer_menus-menu"><a href="#menus">Menus</a></li>
+            <li class="footer_menus-menu"><a href="#about">About</a></li>
+            <li class="footer_menus-menu"><a href="#services">Services</a></li>
+            <li class="footer_menus-menu"><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="footer__divider"></div>
+        <p class="footer__copyright">
+            &copy; 2026 PreciousCaters. All rights reserved. | Crafted by
+       <a class="footer__copyright" id="whatsapp-secondary" href="https://wa.me/27769415978">Vellie_xo</a> 
+    </p>
+     </footer>
+     <script src="script.js" defer></script>
+</body>
+  <script src="https://unpkg.com/scrollreveal"></script>
+<html>
+    <script>
+        ScrollReveal({
+            reset: true,
+            delay: 300,
+            distance: '60px',
+            duration: 1500
+        });
+
+        ScrollReveal().reveal('.section-home__title');
+        ScrollReveal().reveal('.section-home__description', {
+            delay: 600,
+            duration: 2500
+        });
+
+
+        ScrollReveal().reveal('.section-home__title');
+        ScrollReveal().reveal('.section-home__image', {
+            origin: 'right'
+        });
+        ScrollReveal().reveal('.section-home__buttons', {
+        delay: 600
+        });
+
+        ScrollReveal().reveal('.section-home__card', {
+            interval: 300
+        });
+
+        ScrollReveal().reveal('.section-about__image', {
+            delay: 900,
+            origin: 'left'
+        });
+
+        ScrollReveal().reveal('.section-about__stat', {
+            delay: 900,
+            interval: 300
+        });
+
+        ScrollReveal().reveal('.section-about .primary-button', {
+            delay: 1200,
+            interval: 300
+        });
+
+         ScrollReveal().reveal('.section-services__card', {
+            duration: 3000,
+            delay: 1200
+        });
+
+        ScrollReveal().reveal('.section-contact__info-item', {
+            delay: 1200,
+            interval: 300
+        });
+
+        ScrollReveal().reveal('.section-contact__form', {
+            duration: 3000,
+            delay: 1000
+        }); 
+
+        </script>
+        </html>
